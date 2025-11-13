@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Kauã | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particulas">
+
+    </div>
+
+
+
+
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#habilidades" class="menu-link">Habilidades</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">    
+         
+    <img src="assets/foto.jpg" alt="Foto de Kauã Lisboa Emerencio" class="foto-perfil">
+    <h1>Kauã Lisboa Emerencio</h1>
+    <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
+
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+            Oi, meu nome é Kauã Lisboa, tenho 18 anos e sou estudante do curso ADS(Analise e desenvolvimento de sistemas) na Universidade Tiradentes, tenho contato com a programação a 2 anos, atualmente moro em Aracaju - SE.
+        </p>
+        </div>
+
+    </section id="habilidades" class= "habilidades">
+    <h2 class="titulo-skils">Habilidades</h2>
+    <div class="sobre-skils">
+        <ul class="lista-skils">
+            <li class="item-skils">Javascript</li>
+            <li class="item-skils">Python</li>
+            <li class="item-skils">Figma</li>
+            <li class="item-skils">SQL</li>
+            <li class="item-skils">Python</li>
+    </div>
+
+    <section>
+
+    </section>
+
+   <section id="projetos" class="projetos">
+  <h2 class="projetos-titulo">Meus projetos</h2>
+
+  <div class="projetos-caixa">
+
+    <div class="projetos-card">
+      <img src="assets/fotolampada.png" alt="projeto lâmpada" class="projetos-imagem">
+      <div class="caixa-texto-projetos">
+      <h3 class="info-projetos">Teste de lâmpada</h3>
+      <p class="paragrafo-projetos">
+        Projeto simples de uma lâmpada que acende e apaga ao clicar no botão.
+      </p>
+      </div>
+    </div>
+
+    <div class="projetos-card">
+      <img src="assets/projectcar.png" alt="jogo de carro" class="projetos-imagem">
+      <div class="caixa-texto-projetos">
+      <h3 class="info-projetos">Jogo de carro feito em sala</h3>
+      <p class="paragrafo-projetos">
+        Projeto simples de acelerar, desacelerar e resetar. Uma corrida de carros em JavaScript.
+      </p>
+      </div>
+    </div>
+
+   
+  </div>
+</section>
+  <section id="contatos" class="contatos">
+<h2 class="contatos-titulo">Entre em Contato</h2>
+<form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+<div class="grupo-form">
+    <input type="text" placeholder="Digite seu nome" class="campo-form" id="nome">
+    </div>
+
+    <div class="grupo-form">
+   <input type="email" placeholder="Digite seu email" class="campo-form" id="email">
+    </div>
+
+ <div class="grupo-form">
+    <textarea class="campo-form" placeholder="Digite sua mensagem" id="mensagem"></textarea>
+    </div>
+</div>
+<button type="submit" class="botao-form">Enviar Mensagem</button>
+</form>
+  </section>
+
+
+
+
+<script src="lscript.js"></script>
+</body>
+</html>
