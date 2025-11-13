@@ -5,9 +5,9 @@
 function enviarWhats(event){
 event.preventDefault();
 
-const nome= document.getElementbyId('nome').value;
+const nome= document.getElementById('nome').value;
 const email =document.getElementById('email').value;
-const mensagem = document.getElementById('mensagem');
+const mensagem = document.getElementById('mensagem').value;
 let telefone = '5579998107310'
 
 const texto = `Olá, meu nome é ${nome}, meu email é ${email}, estou entrando em contato atraves do seu portfolio e gostaria ${mensagem}`
