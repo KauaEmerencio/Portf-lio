@@ -1,2 +1,2 @@
 # portfolio
-Meu portfolio apresentando alguns projetos criados, tanto em sala de Aula, como pessoal tambem.
+Uma apresentação breve sobre meus desenvolvimentos e quem sou. Projetos criados em sala de Aula e outros, criado pessoal. Forma de entrar em contato
